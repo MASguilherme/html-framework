@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="framework.css" rel="stylesheet"/>
+    <title>Flexbox</title>
+</head>
+<body>
+
+    <section class="container">
+        <header class="gold">
+            <div class="flex">
+                <div class="w50 left text-white-titulo">Logo Marca</div>
+                <div class="w50 right">
+                    <ul>
+                        <li><a class="text-link" href="#">Home</a></li>
+                        <li><a class="text-link" href="#">Sobre</a></li>
+                        <li><a class="text-link" href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </section> <!-- Container header-->
+
+    <section class="container cblue">
+        <div class="flex">
+            <div class="w100 center text-white-titulo slider">
+                <p>Texto para slider</p>
+            </div>
+        </div>
+    </section> <!--container cblue-->
+
+    <section class="container">
+        <div class="flex">
+            <div class="w33 center order3">
+                <h2>Titulo 1</h2>
+                <p>Texto de exemplo w33</p>
+            </div>
+            <div class="w33 center order1">
+                <h2>Titulo 2</h2>
+                <p>Texto de exemplo w33</p>
+            </div>
+            <div class="w33 center order2">
+                <h2>Titulo 3    </h2>
+                <p>Texto de exemplo w33</p>
+            </div>
+        </div>
+    </section> <!--container w33-->
+    
+</body>
+</html>

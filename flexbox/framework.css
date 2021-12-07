@@ -1,0 +1,80 @@
+/* framework */
+
+
+.cblue{
+    background-color:#6495ED;
+}
+
+.gold{
+    background-color:#FFD700;
+}
+.text-white-titulo{
+    color: #fff;
+    font-size: 20px;
+}
+.text-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.center{
+    text-align: center;
+}
+
+section.container{
+    width:100%;
+}
+
+div.flex{
+    display: flex;
+    max-width: 900px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+div.w50{
+    width:50%;
+}
+div.w100{
+    width:100%;
+}
+div.w33{
+    width:33%;
+}
+div.left{
+    text-align:left;
+}
+
+div.right{
+    text-align:right;
+}
+
+@media screen and (max-width: 700px){
+    div.w50{
+        width:100%;
+    }
+    div.w33{
+        width: 100%;
+        padding:15px 0;
+    }
+    div.left{
+        margin-bottom: 10px;
+        text-align:center;
+    }
+    div.right{
+        text-align:center;
+    }
+    
+}
+.order1{
+    order:1;
+}
+
+.order2{
+    order:2;
+}
+.order3{
+    order:3;
+}
+/* fim framework */a

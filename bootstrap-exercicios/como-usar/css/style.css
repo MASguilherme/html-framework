@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* framework */
+
+.font-tam{
+    font-size: 30px !important;
+}
+
+.height-fixo{
+    height:500px;
+}
+
+@media (max-width: 550px) {
+    nav a{
+        margin-left: 0px !important;
+    }
+}
+
+/* end framework */
+
+/* style */
+
+nav a{
+    margin-left: 50px;
+}
+
+.ul-marge-right{
+    position: relative;
+    left: 150px;
+}
+
+
+/* end style */
+
+/* media queries */
+
+@media (max-width: 991px){
+    .ul-marge-right{
+        position: inherit;
+    }
+}
+
+/* end media queries */

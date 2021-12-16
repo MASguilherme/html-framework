@@ -7,36 +7,77 @@
     <!-- Bootstrap e CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/4f9bd3ce15.js" crossorigin="anonymous"></script>
+
     <title>Projeto Bootstrap One Page</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark text-light border-bottom border-white border-1">
-        <div class="container-fluid col-lg-9">
-            <a class="navbar-brand text-white">
-                <img src="#" alt="">
-                Teste
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-0 lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Avaliações</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contato</a>
-                    </li>
-                </ul>
+    <div class="container-fluid bg-navbar-home">
+        <nav class="navbar navbar-expand-lg navbar-light text-dark border-bottom border-dark border-1">
+            <div class="container-fluid col-lg-9">
+                <a class="navbar-brand text-black">
+                    <img src="#" alt="">
+                    Teste
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-0 lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">
+                                <i class="fab fa-instagram" style="font-size: 25px;"></i>
+                             </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">
+                                <i class="fab fa-facebook-square"style="font-size: 25px;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  
             </div>  
-        </div>  
-    </nav>
+        </nav>
+        <div class="container-fluid">
+           <div class="row py-5">
+               <div class="col-lg-7 col-md-7">
+                    <img class="img-fluid" src="images/smiling.jpg" />
+               </div>
+               <div class="col-lg-5 col-md-5 mt-4">
+                    <h1 class="text-uppercase">Notebook Bootstrap</h1>
+                    <p class="text-secondary m">Mesmo com todo o avanço no mercado de smartphones, os notebooks ainda 
+                        são a alternativa mais popular para quem busca praticidade, mas não abre mão 
+                        do que um bom computador tradicional é capaz de fazer. Contudo, apesar de 
+                        serem amplamente utilizados, muitos dos fatos sobre os laptops ainda são 
+                        desconhecidos do público em geral.</p>
+                        <blockquote class="blockquote">
+                            <p>Você sabia que o primeiro notebook do mundo foi utilizado em diversas missões da NASA?</p>
+                            <footer class="blockquote-footer">Fonte: Techtudo</footer>
+                        </blockquote>
+               </div>
+           </div>
+        </div>
+    </div> <!-- Container fluid navbar e home-->
+    <section>
+        <div class="container-fluid">
+
+        </div>
+    </section> <!--Home parte 2-->
+
     <!-- Scripts Jquery e Bootstrap -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

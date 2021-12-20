@@ -16,6 +16,15 @@ html, body{
 .container-max-w{
     max-width: 1200px;
 }
+.margin-r{
+    margin-right: 25px !important;
+}
+
+@media (max-width: 990px){
+    .margin-r{
+        margin-right: 0px !important;
+    }
+}
 /* end frameworks */
 
 

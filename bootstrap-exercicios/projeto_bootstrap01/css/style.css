@@ -6,19 +6,22 @@
 
 html, body{
     height:100%;
-    background-color:#fff;
+    background-color:#000;
 }
 
-/* frameworks */
-
-
-
+/* frameworks */    
+.bg-21grey{
+    background-color:#363636;
+}
+.container-max-w{
+    max-width: 1200px;
+}
 /* end frameworks */
 
 
 /* estilo */
 .bg-navbar-home{
-    background-color:#DCDCDC;
+    background-color:#363636;
 }
 
 /* end estilo */

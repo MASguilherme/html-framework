@@ -10,11 +10,11 @@ html, body{
 }
 
 /* frameworks */    
-.bg-21grey{
-    background-color:#363636;
+.bg-grey11{
+    background-color:#1C1C1C;
 }
 .container-max-w{
-    max-width: 1200px;
+    max-width: 1150px;
 }
 .margin-r{
     margin-right: 25px !important;
@@ -25,6 +25,28 @@ html, body{
         margin-right: 0px !important;
     }
 }
+
+.font-titulo{
+    font-size: 70px;
+    line-height: 75px;
+}
+ @media (max-width: 425px){
+    .font-titulo{
+        font-size: 40px;
+        line-height: 50px;
+    }
+ } 
+
+ /* cores de texto */
+.light-grey{
+    color:#D3D3D3;
+
+}
+a{
+    text-decoration: none;
+}
+  /* cores de texto */
+
 /* end frameworks */
 
 

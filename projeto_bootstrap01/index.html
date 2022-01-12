@@ -15,7 +15,7 @@
 </head>
 <body>
     <section class="container-fluid bg-grey11 ">
-        <nav class="navbar navbar-expand-lg navbar-dark text-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark text-light">
                 <a class="navbar-brand text-light">
                     <h3 class="logo">Borne.</h3>
                 </a>
@@ -192,11 +192,11 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="3000">
                                 <div class="row">
-                                    <div class="col-lg-5 col-xs-12 mt-2">
+                                    <div class="col-lg-5 col-sm-5 mt-2">
                                         <img src="images/time-1.jpg" class="d-block w-100">
                                         <p class="lead light-grey">Gisele - Gerente de Ideias</p>
                                     </div>
-                                    <div class="col-lg-5 col-xs-12 mt-2">
+                                    <div class="col-lg-5 col-sm-5 mt-2">
                                         <img src="images/time-2.jpg" class="d-block  w-100">
                                         <p class="lead light-grey">Antonio - Gerente de Projeto</p>
                                     </div>
@@ -204,11 +204,11 @@
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
                                 <div class="row">
-                                    <div class="col-lg-5 col-xs-12 mt-2">
+                                    <div class="col-lg-5 col-sm-5 mt-2">
                                         <img src="images/time-4.jpg" class="d-block w-100">
-                                        <p class="lead light-grey">Maya Sun - Gerente de Marketing</p>
+                                        <p class="lead light-grey">Maya - Gerente de Marketing</p>
                                     </div>
-                                    <div class="col-lg-5 col-xs-12 mt-2">
+                                    <div class="col-lg-5 col-sm-5 mt-2">
                                         <img src="images/time-5.jpg" class="d-block w-100">
                                         <p class="lead light-grey">Carlos - Estagiário</p>
                                     </div>
@@ -223,17 +223,31 @@
     <section class="container-fluid">
         <div class="container-fluid container-max-w">
             <div class="row py-5">
-                <div class="col-12 text-center light-grey">
-                    <p class="display-4">Gostou? <br> Entre em contato hoje mesmo!</p>
+                <div class="col-12 text-center">
+                    <p class="display-4 light-grey">Gostou? <br> Entre em contato hoje mesmo!</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-10 col-sm-12">
-                    
+            <div class="row d-flex justify-content-center pb-5">
+                <div class="col-lg-6 col-sm-9">
+                    <form>
+                        <label class="form-label light-grey">Seu Melhor E-mail:</label>
+                        <input class="form-control mb-3" type="email"/>
+                        <label class="form-label light-grey">Nome Completo:</label>
+                        <input class="form-control mb-3" type="text"/>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="comentário" style="height:100px; resize:none;"></textarea>
+                            <label>Comentário</label>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-light">Enviar</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section> <!--Contato-->
+    <footer>
+        
+    </footer>
     
 
     <!-- Scripts Jquery e Bootstrap -->

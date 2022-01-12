@@ -22,6 +22,7 @@ html, body{
 /* frameworks */    
 .container-max-w{
     max-width: 1150px;
+    margin: 0 auto;
 }
 
 .bg-grey11{
@@ -29,6 +30,9 @@ html, body{
 }
 .bg-grey21{
     background-color:#363636;
+}
+.bg-light-grey{
+    background-color:#D3D3D3;
 }
 
 .margin-r{

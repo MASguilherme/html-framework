@@ -6,9 +6,45 @@
  * Made By MaterializeCSS.com
  */
 
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+html. body{
+  height: 100%;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+/* estilo */
+
+.sect1{
+  position:relative;
+  min-height:400px;
+}
+
+.form-container{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  padding: 15px 2%;
+  width:100%; 
+  max-width: 700px;
+}
+
+
+/* fim estilo */
+
+/* framework */ 
+
+
+/* fim framework */

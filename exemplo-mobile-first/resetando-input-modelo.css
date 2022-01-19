@@ -1,0 +1,19 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+html, body{
+    height:100%;
+}
+
+input, textarea{
+    border-radius:0;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+textarea{
+    resize:none;
+    overflow-y:auto;
+}

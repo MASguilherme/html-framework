@@ -1,3 +1,5 @@
+/* font weight:100, 400 and 900 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
 *,
 *::before,
 *::after{
@@ -7,4 +9,25 @@
 }
 html, body{
     height:100vh;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    line-height:1.5;
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 2% 15%;
+}
+.nav-color{
+    background-color:#7A0BC0;
+}
+
+.title{
+    background-color:#7A0BC0;
+}
+.iphone-dog{
+    width:50%;
+    min-width: 246px;
+    transform: rotate(20deg);
 }

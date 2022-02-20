@@ -1,33 +1,61 @@
 /* font weight:100, 400 and 900 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap");
 *,
 *::before,
-*::after{
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html, body{
-    height:100vh;
+html,
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size:3rem;
-    line-height:1.5;
-    font-weight: 900;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
-.container-fluid{
-    padding: 2% 15%;
-}
-.nav-color{
-    background-color:#7A0BC0;
+.container-fluid {
+  padding: 2% 10%;
 }
 
-.title{
-    background-color:#7A0BC0;
+/* Navbar */
+
+.navbar{
+    padding:0 0 4.5rem 0;
 }
-.iphone-dog{
-    width:50%;
-    min-width: 246px;
-    transform: rotate(20deg);
+
+.nav-color {
+  background-color: #fa4eab;
+  min-width: 400px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link{
+    font-size:1.3rem;
+    font-family: "Montserrat-light", sans-serif; ;
+}
+
+/* Section Title */
+
+#title {
+  background-color: #fa4eab;
+  color: #fff;
+}
+.iphone-dog {
+  width: 60%;
+  min-width: 200px;
+  transform: rotate(25deg);
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
 }

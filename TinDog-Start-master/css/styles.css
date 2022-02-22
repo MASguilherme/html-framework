@@ -41,7 +41,7 @@ h1 {
 
 .nav-link{
     font-size:1.3rem;
-    font-family: "Montserrat-light", sans-serif; ;
+    font-family: "Montserrat-light", sans-serif; 
 }
 
 /* Section Title */
@@ -56,6 +56,32 @@ h1 {
   transform: rotate(25deg);
 }
 
+
 .download-btn{
     margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features{
+  padding: 7% 0;
+}
+
+#features h3{
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold; 
+  font-size:1.5rem;
+}
+
+#features p {
+  color:#d1cfcf;
+}
+.icon-features{
+  padding-bottom: 5%;
+  color: #FA4EAB;
+  font-size:2rem;
+}
+.icon-features:hover{
+  color: #FE83C6;
+  font-size:2rem;
 }

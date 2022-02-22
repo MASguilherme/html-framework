@@ -29,7 +29,7 @@ h1 {
 }
 
 .nav-color {
-  background-color: #fa4eab;
+  background-color: #9C51E0;
   min-width: 400px;
 }
 
@@ -47,7 +47,7 @@ h1 {
 /* Section Title */
 
 #title {
-  background-color: #fa4eab;
+  background-color: #9C51E0;
   color: #fff;
 }
 .iphone-dog {
@@ -64,7 +64,7 @@ h1 {
 /* features */
 
 #features{
-  padding: 7% 0;
+  padding: 5% 0;
 }
 
 #features h3{
@@ -74,14 +74,22 @@ h1 {
 }
 
 #features p {
-  color:#d1cfcf;
+  color:#8f8f8f;
 }
 .icon-features{
   padding-bottom: 5%;
-  color: #FA4EAB;
+  color: #9C51E0;
   font-size:2rem;
 }
 .icon-features:hover{
-  color: #FE83C6;
+  color: #FA4EAB;
   font-size:2rem;
+}
+
+/* testimonials */
+
+#testimonials{
+  padding: 5% 0;
+  text-align:center;
+  background-color:#9C51E0;
 }

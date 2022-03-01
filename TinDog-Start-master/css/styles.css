@@ -25,7 +25,7 @@ h2 {
   line-height: 1.5;
 }
 .container-fluid {
-  padding: 2% 10%;
+  padding: 2% 8%;
 }
 
 /* Navbar */
@@ -36,7 +36,6 @@ h2 {
 
 .nav-color {
   background-color: #9c51e0;
-  min-width: 400px;
 }
 
 .navbar-brand {
@@ -48,6 +47,7 @@ h2 {
 .nav-link {
   font-size: 1.3rem;
   font-family: "Montserrat-light", sans-serif;
+  margin-left: 3rem;
 }
 
 /* Section Title */
@@ -57,9 +57,9 @@ h2 {
   color: #fff;
 }
 .iphone-dog {
-  width: 60%;
-  min-width: 200px;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 .download-btn {
@@ -70,6 +70,8 @@ h2 {
 
 #features {
   padding: 5% 0;
+  background-color: #fff;
+  position: relative;
 }
 
 #features h3 {
@@ -97,7 +99,7 @@ h2 {
   text-align: center;
   background-color: #9c51e0;
   color: #fff;
-  padding: 5% 0; 
+  padding: 5% 0;
 }
 
 .testimonials-img {
@@ -106,19 +108,102 @@ h2 {
   border-radius: 100%;
   margin: 20px;
 }
-.carousel-item{
+.carousel-item {
   padding: 0 15%;
 }
 /* press */
 
-#press{
+#press {
   background-color: #9c51e0;
-  text-align:center;
-  padding-bottom:3%;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.press-img{
-  width:15%;
-  min-width:150px;
+.press-img {
+  width: 15%;
+  min-width: 150px;
   margin: 20px 15px 10px;
+}
+
+/* pricing */
+
+#pricing {
+  margin: 100px 0;
+  text-align: center;
+}
+
+#pricing a {
+  width: 100%;
+}
+
+.card-column {
+  padding: 2%;
+}
+/* CTA */
+#cta {
+  background-color: #9c51e0;
+  text-align: center;
+  padding: 6% 0;
+}
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color:#fff;
+}
+
+.cta-btn{
+  margin: 4% 2% 0 2%;
+}
+
+/* footer */
+
+#footer{
+  padding: 50px 0;
+  text-align:center;
+}
+.icon-footer{
+  margin:20px 10px;
+  font-size:2rem;
+}
+#footer a {
+  color:rgb(41, 41, 41);
+}
+#footer a:hover {
+  color:rgb(0, 0, 0);
+}
+/* ------------------------------------ */
+/* ----------@MEDIA-------------------- */
+@media screen and (max-width: 1127px) {
+  .iphone-dog {
+    width: 23%;
+    transform: rotate(0deg);
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* navbar */
+  .nav-link {
+    margin-left: 0rem;
+  }
+
+  /* title */
+  #title {
+    text-align: center;
+  }
+  #title h1{
+    font-size:3rem;
+  }
+  .iphone-dog {
+    width: 28%;
+    min-width: 180px;
+    position: static;
+    margin-left: 0;
+  }
+
+  /* features */
+  #features {
+    position: static;
+  }
 }

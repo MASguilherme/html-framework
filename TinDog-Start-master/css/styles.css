@@ -190,7 +190,7 @@ h5 {
   }
 
   /* title */
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
   .big-title {

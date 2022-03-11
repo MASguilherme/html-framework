@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+}
+/* estilização manual do bootstrap */
+.container-fluid{
+    padding:1% 3.5%;
+}
+/* header */
+
+.estilo-header{
+    background-image: linear-gradient(to right, #e9492a 20%, #e72653 80%);
+    color: #fff;
+}
+
+.manda-titulo-img{
+    width:100%;
+    max-width: 189px;
+    position:absolute;
+    top:10%;
+
+}
+.semi-circulo-img{
+    position:absolute;
+    top:10%;
+    left:0%;
+}
